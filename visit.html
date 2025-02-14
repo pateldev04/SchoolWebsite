@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Us - AAV High School</title>
+    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> 
+</head>
+<body>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    color: #555;
+}
+
+.info-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.info-section p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.campus-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+.social-media-icons {
+    margin-top: 10px;
+}
+
+.social-media-icons a {
+    margin: 0 10px;
+}
+
+.social-media-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+/* .social-media-icons img:hover {
+    transform: scale(1.1);
+} */
+ </style>
+    <div class="container">
+        <header>
+            <h1>AAV High School</h1>
+            <p>Welcome to AAV High School! We are dedicated to providing high-quality education and enriching experiences.</p>
+        </header>
+
+        <section class="info-section">
+            <h2>Visit Us to Know More</h2>
+            <p>We invite you to visit our campus to learn more about our academic programs, extracurricular activities, and the enriching experience we offer at AAV High School.</p>
+            
+            <div class="image-gallery">
+                <img src="https://wallpapercave.com/wp/wp1915284.jpg" alt="Campus View 1" class="campus-img">
+                <img src="https://wallpapers.com/images/hd/brandeis-university-campus-view-bsejbwy373jv0xvx.jpg" alt="Campus View 2" class="campus-img">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.YAoA99FON7VF6bw2G34gfAHaE7&pid=Api&P=0&h=180" alt="Campus View 3" class="campus-img">
+            </div>
+
+            <p>Our campus is designed to offer a holistic and immersive learning environment. Here's a glimpse of our facilities.</p>
+
+
+
+            <div class="button-container">
+                <button id="visitButton">Vist Us More</button>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2025 AAV High School. All rights reserved.</p>
+            <p>Connect with us on social media!</p>
+            <div class="social-media-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </footer>
+    </div>
+
+    <script >
+
+const visitButton = document.getElementById('visitButton');
+
+visitButton.addEventListener('click', function() {
+    window.location.href = 'schoolweb.html'; // URL 
+});
+
+
+    </script>
+</body>
+</html>
